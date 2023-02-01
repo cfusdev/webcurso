@@ -1,0 +1,137 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,300;8..144,400&display=swap');
+
+
+body, html {
+    height: 100%;
+    font-family: 'Roboto Flex', sans-serif;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+.iconmenu{
+    font-size: 2rem; 
+    color: white;
+}
+
+#menu{
+    margin-left: 50px;
+}
+
+#imgportfolio{
+    border-radius: 90px;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 50%;
+    left: -90px;
+    border: solid 5px;
+    box-shadow: 2px 2px 5px #999;
+    margin-bottom: -20px;
+}
+
+.offcanvas-body{
+    position: relative;
+}
+
+h6{
+    font-size: 1.5em;
+}
+
+.navrow{
+    margin-top: 20px;
+}
+  
+.bg {
+    /* The image used */
+    background-image: url("../assetss/img/programacion-software.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#offcanvas{
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 1.3em;
+    font-weight: 800;
+    overflow: hidden;
+}
+
+.linksocialf{
+    color: #2100db;
+}
+
+.linksociali{
+    color: #ff4800;
+}
+
+.linksocialt{
+    color: #0d8bdf;
+}
+
+.linksociald{
+    color: #8400ff;
+}
+
+.tituloseccion{
+    margin-bottom: 30px;
+    font-family: 'Roboto Flex', sans-serif;
+    margin-top: 20px;
+    font-size: 1.4em;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.imgportfolio{
+    border: solid 4px black;
+    border-radius: 10px;
+}
+
+.seccurriculum{
+    background-color: rgb(219, 218, 218);
+}
+
+.seccontacto{
+    
+}
+
+.titulo3{
+    margin-top: 30px;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.descripcion{
+    font-size: 1.1em;
+    text-justify: auto;
+}
+
+.listadatos li{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.iconlista{
+    margin-right: 10px;
+}
+
+.textbold{
+    font-weight: 700;
+}
+
+.spacer{
+    margin-top: 20px;
+}
+
+.btncursos{
+    width: 200px;
+    height: 200px;
+}

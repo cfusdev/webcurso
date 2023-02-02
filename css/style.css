@@ -1,11 +1,14 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,300;8..144,400&display=swap');
 
-
 body, html {
     height: 100%;
     font-family: 'Roboto Flex', sans-serif;
-    
+    font: 1rem/1.5 var(--bs-font-sans-serif);
+}
+
+a {
+    color: var(--bs-blue);
 }
 
 ul {
@@ -134,4 +137,11 @@ h6{
 .btncursos{
     width: 180px;
     height: 180px;
+}
+
+.v-line{
+    border-left: thick solid #000;
+    height:100%;
+    left: 50%;
+    position: absolute;
 }

@@ -102,11 +102,10 @@ h6{
     background-color: rgb(219, 218, 218);
 }
 
-
 .titulo3{
-    margin-top: 30px;
     font-size: 2em;
     font-weight: 700;
+    margin-top: -20px;
 }
 
 .descripcion{

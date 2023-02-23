@@ -3,7 +3,7 @@
 
 body, html {
     height: 100%;
-    font-family: 'Roboto Flex', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font: 1rem/1.5 var(--bs-font-sans-serif);
 }
 
@@ -17,7 +17,11 @@ ul {
 
 .iconmenu{
     font-size: 2rem; 
-    color: white;
+    color: black;
+}
+
+.btnmenu{
+    background-color: gray;
 }
 
 #menu{
@@ -25,18 +29,40 @@ ul {
 }
 
 #imgportfolio{
+    height: auto;
+    width: 60%;
     border-radius: 90px;
     position: relative;
     margin-top: 30px;
-    margin-left: 50%;
-    left: -90px;
-    border: solid 1px;
+    margin-left: 20%;
+    border: solid 2px;
     box-shadow: 2px 2px 5px #999;
     margin-bottom: -20px;
+    overflow: hidden;
+    overscroll-behavior: hidden;
 }
 
 .offcanvas-body{
     position: relative;
+}
+
+.offcanvas-title{
+    font-family: 'Roboto';
+    font-weight: 900;
+}
+
+.cardservices{
+    height: 100px;
+    width: 100px;
+}
+
+.textmenu{
+    font-family: 'Roboto';
+    color: black;
+}
+
+.iconmenu{
+    color: black;
 }
 
 h6{
@@ -49,7 +75,7 @@ h6{
   
 .bg {
     /* The image used */
-    background-image: url("../assetss/img/programacion-software.jpg");
+    background-image: url("../assetss/img/bg.jpg");
   
     /* Full height */
     height: 100%;
@@ -94,8 +120,9 @@ h6{
 }
 
 .imgportfolio{
-    border: solid 4px black;
+    border: solid 4px white;
     border-radius: 10px;
+    margin-bottom: 30px;
 }
 
 .seccurriculum{
@@ -106,6 +133,7 @@ h6{
     font-size: 2em;
     font-weight: 700;
     margin-top: -20px;
+    text-align: center;
 }
 
 .descripcion{

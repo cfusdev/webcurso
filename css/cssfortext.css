@@ -28,6 +28,7 @@ section {
 }
 
 section a {
+    font-family: "Roboto";
     text-transform: uppercase;
     text-align: center;
     text-decoration: none;
@@ -49,7 +50,7 @@ section.head {
 }
 
 section.head a {
-    width: 652px;
+    width: auto;
     height: 78px;
     line-height: 78px;
     position: absolute;
@@ -66,7 +67,7 @@ section.head a {
 
 section.head a:before,
 section.head a:after {
-    color: #000;
+    color: white;
     font-weight: 900;
     font-size: 30px;
     text-transform: none;
@@ -91,7 +92,7 @@ section.head a:after {
 }
 
 section.head a:hover {
-    color:rgb(29, 5, 116);
+    color:rgb(158, 157, 157);
     -webkit-transform: scale(1.05);
     -moz-transform: scale(1.05);
     -ms-transform: scale(1.05);
